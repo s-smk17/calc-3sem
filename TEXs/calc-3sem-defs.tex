@@ -1,0 +1,52 @@
+\documentclass[16pt, letterpaper]{article}
+\usepackage[T2A]{fontenc}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\title{Обязательные формулировки}
+\author{Курбанов Сергей}
+\date{Математический анализ, 3 семестр}
+
+\begin{document}
+
+\maketitle 
+
+\section*{Равномерная сходимость}
+\textbf{Определение.} Пусть $X$ -- множество, $f_n$, $f : X \rightarrow \mathbb{R}$ (или $\mathbb{C}$). Говорят, что последовательность $\{f_n\}$ \textit{сходится} к функции $f$ на множестве $X$ \textit{равномерно}, и пишут $$f_n \rightrightarrows\limits_{n \rightarrow \infty} f (X),$$ если $$\forall \epsilon > 0 \quad \exists N \in \mathbb{N} \quad \forall n > N \quad \forall x \in X \quad |f_n(x) - f(x)| < \epsilon$$
+
+\section*{Равномерная норма}
+\textbf{Определение.} Пусть $X$ -- множество, $f: X \to \mathbb{R}$ (или $\mathbb{C}$). Величина $$\|f\| = sup\limits_{x \in X} |f(x)|$$ называется \textit{равномерной} или \textit{чебышевской нормой} функции $f$.
+
+\section*{Признак Вейерштрасса (равномерной сходимости)}
+\textbf{Теорема.} Пусть $X$ -- множество, $f_k : X \to \mathbb{R}$ (или \mathbb{C}), $\displaystyle\sum_{k = 1}^{\infty} \|f_k\| < + \infty$. Тогда ряд $\displaystyle\sum_{k + 1}^{\infty} f_k$ сходится равномерно на $X$. 
+
+\section*{Теоремы о перестановках операций при условии равномерной сходимости}
+
+\section*{Радиус сходимости}
+
+\section*{Формула Коши-Адамара}
+
+\section*{Тейлоровские разложения экспоненты, синуса, косинуса, логарифма, степени}
+
+\section*{Криволинейный интеграл}
+
+\section*{Точная и замкнутая форма}
+
+\section*{Формула Ньютона-Лейбница}
+
+\section*{Дифференциальные условия замкнутости формы}
+
+\section*{Голоморфная функция}
+
+\section*{Условия Коши-Римана (комплексной дифференцируемости)}
+\textbf{Теорема.} Пусть $D \subset \mathbb{C}$, $f: D \to \mathbb{C}$, $f = u + iv$, $z_0 = x_0 + iy_0 \in$ Int $D$. Тогда следующие утверждения равносильны.
+\begin{enumerate}
+\item $f$ дифференцируема в точке $z_0$.
+\item $u$, $v$ дифференцируемы в точке $(x_0, y_0)$ и  $$u_{x}^{'}(x_0, y_0) = v_{y}^{'}(x_0, y_0), \quad u_{y}^{'}(x_0, y_0) = -v_{x}^{'}(x_0, y_0).$$ 
+\end{enumerate}
+Равенства иногда называют \textit{условиями} или \textit{уравнениями Коши-Римана}, а иногда -- \textit{условиями} или \textit{уравнениями Даламбера-Эйлера}.
+
+\section*{Интегральная теорема и интегральная формула Коши}
+
+\end{document}
+
